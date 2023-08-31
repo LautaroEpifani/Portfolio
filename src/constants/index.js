@@ -40,7 +40,7 @@ const services = [
     icon: back,
   },
   {
-    title: "Typescript Lover",
+    title: "TypeScript Lover",
     icon: ts,
   },
 ];
