@@ -65,8 +65,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://testveggipedia.firebaseapp.com/",
     image: veganstore,
-    source_code_link: "https://testveggipedia.firebaseapp.com/",
   },
   {
     name: "Hotel Miranda Web Page",
@@ -86,8 +86,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "http://ec2-34-245-29-31.eu-west-1.compute.amazonaws.com/",
     image: hotelmiranda,
-    source_code_link: "https://lautaroepifani.github.io/hotel-miranda/src/pages/home/index.html",
   },
   {
     name: "Dashboard Hotel Proyect",
@@ -107,8 +107,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "http://mirandadashboard.s3-website-eu-west-1.amazonaws.com",
     image: dashboard,
-    source_code_link: "http://mirandadashboard.s3-website-eu-west-1.amazonaws.com",
   },
   {
     name: "Oxygen Shop",
@@ -128,8 +128,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://lautaroepifani.github.io/oxygenshop.github.io",
     image: oxygenshop,
-    source_code_link: "https://lautaroepifani.github.io/oxygenshop.github.io/src/index.html",
   },
   {
     name: "Photos App",
@@ -149,8 +149,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://lautaroepifani.github.io/photos-react-app.github.io/",
     image: photosapp,
-    source_code_link: "https://lautaroepifani.github.io/photos-react-app.github.io/",
   },
 
   {
@@ -171,8 +171,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    link: "https://schedule-next-app.netlify.app",
     image: calendary,
-    source_code_link: "https://schedule-next-app.netlify.app",
   },
 ];
 

@@ -9,7 +9,6 @@ import reactblack from "./react.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -35,6 +34,9 @@ import dashboard from "./dashb.png";
 import  oxygenshop from "./oxygen.png";
 import photosapp from "./photosapp.png";
 import calendary from "./calendary.png";
+
+import download from "./download.png";
+import resume from "./resume/Lautaro Epifani eng.pdf"
 
 export {
   logo,
@@ -70,5 +72,7 @@ export {
  dashboard,
  oxygenshop,
  photosapp,
- calendary
+ calendary,
+ download,
+ resume
 };

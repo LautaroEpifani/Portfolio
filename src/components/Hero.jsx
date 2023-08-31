@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
-import Tilt from "react-tilt";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import video from "../../public/videos/videoLauu.mp4"
+import { download, resume } from "../assets";
 
 
 const Hero = () => {
@@ -37,11 +36,28 @@ const Hero = () => {
            
           </video>
         </div>
+      
       </div>
-
+      
+      <div className="absolute xs:bottom-30 bottom-64 w-full flex gap-4 justify-left xs:left-40 left-10 items-center">
+        <p>Download my resume here.</p>
+        <motion.div
+              animate={{
+                y: [0, 10, 10, 0],
+              }}
+              transition={{
+                duration: 2.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+            className=""
+            ><a href={resume} download="lautaroepifani"> <img src={download} alt="" className="w-10 h-10 mb-3"/></a> </motion.div> 
+      </div>
+     
       {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-30 bottom-32 w-full flex justify-center items-center'>
+       
         <a href='#about'>
           <div className=''>
             <motion.div
