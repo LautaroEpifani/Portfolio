@@ -74,16 +74,28 @@ const projects = [
       "Front-End of Hotel Miranda web page proyect. Technologies used in proyect: Html, Css Sass, Javascript for functionalities and responsive.",
     tags: [
       {
-        name: "Html",
+        name: "Html - ",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Sass - ",
+        color: "pink-text-gradient",
       },
       {
         name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "Sass",
+        name: "Php + Laravel",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Amazon Web Services EC2",
+        color: "orange-text-gradient",
       },
     ],
     link: "http://ec2-34-245-29-31.eu-west-1.compute.amazonaws.com/",
@@ -105,6 +117,10 @@ const projects = [
       {
         name: "Styled-Components",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Amazon Web Services: Lambda & S3",
+        color: "orange-text-gradient",
       },
     ],
     link: "http://mirandadashboard.s3-website-eu-west-1.amazonaws.com",
@@ -145,7 +161,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Material UI",
+        name: "MUI",
         color: "pink-text-gradient",
       },
     ],

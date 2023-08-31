@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { alink  } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -33,7 +33,8 @@ const ProjectCard = ({
             alt="project_image"
             className="w-full h-full object-fill rounded-2xl"
           />
-
+           { name === "Hotel Miranda Web Page" ? <a href={link} className="flex justify-end ml-4 mt-44"><img src={alink} alt="" className="w-12 h-12"/></a> 
+             : <a href={link} className="flex justify-end ml-4 mt-32"><img src={alink} alt="" className="w-12 h-12"/></a> }
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             {/* <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -64,7 +65,7 @@ const ProjectCard = ({
           ))}
         </div>
         
-          <a href={link} className="text-[12px] mt-2 flex flex-wrap">Link</a>
+         
        
       </Tilt>
     </motion.div>

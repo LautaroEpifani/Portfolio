@@ -37,6 +37,7 @@ import calendary from "./calendary.png";
 
 import download from "./download.png";
 import resume from "./resume/Lautaro Epifani eng.pdf"
+import alink from "./link.png"
 
 export {
   logo,
@@ -74,5 +75,6 @@ export {
  photosapp,
  calendary,
  download,
- resume
+ resume,
+ alink
 };
