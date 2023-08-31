@@ -35,18 +35,6 @@ const ProjectCard = ({
           />
            { name === "Hotel Miranda Web Page" ? <a href={link} className="flex justify-end ml-4 mt-44"><img src={alink} alt="" className="w-12 h-12"/></a> 
              : <a href={link} className="flex justify-end ml-4 mt-32"><img src={alink} alt="" className="w-12 h-12"/></a> }
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            {/* <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div> */}
-          </div>
         </div>
 
         <div className="mt-5">
